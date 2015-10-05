@@ -1,0 +1,97 @@
+;; display only tails of lines longer than 80 columns, tabs and
+;; trailing whitespaces
+
+(require 'whitespace)
+(setq whitespace-line-column 80) ;; limit line length
+(setq whitespace-style '(face lines-tail))
+
+(add-hook 'prog-mode-hook 'whitespace-mode)
+
+;; nuke trailing whitespaces when writing to a file
+(add-hook 'write-file-hooks 'delete-trailing-whitespace)
+
+
+
+;; = = = PYTHON EMACS IDE = = =
+
+;; neotree (tree mode view)
+(add-to-list 'load-path "/Users/charilaostsarouchas/.emacs.d/neotree")
+(require 'neotree)
+(global-set-key [f8] 'neotree-toggle)
+
+
+
+;; EXTRAS:
+;; main set of packages from emacs-for-python
+(load-file "/Users/charilaostsarouchas/.emacs.d/emacs-for-python/epy-init.el")
+
+;; enable the pyflakes to check python source files for errors
+;;(epy-setup-checker "pyflakes %f")
+;;(epy-setup-checker "pyflakes %f; pep8 %f")
+;; Next two lines are the checks to do. You can add more if you wish.
+;;(epy-setup-checker "pyflakes %f")
+
+;; current line highlighting
+;;(global-hl-line-mode t) ;; To enable
+;;for a list of colors: http://raebear.net/comp/emacscolors.html
+;; change with the color that you like
+;;(set-face-background 'hl-line "light grey")
+
+;;*** Highlight Indentation
+;; Interesting way to have a visual clue on how the code is indented:
+;; (require 'highlight-indentation)
+;; (add-hook 'python-mode-hook 'highlight-indentation)
+
+;;*** disabling the auto-pairing of parenthesis
+;;To disable the auto-pairing, drop the following line:
+;; (setq skeleton-pair nil)
+
+
+
+;; pyflakes and pep8
+;; you have to create a file pycheckers.sh under .emacs.d
+;; pycheckers.sh has to be executable:  chmod u+x pycheckers.sh
+(when (load "flymake" t)
+  (defun flymake-pyflakes-init ()
+    (let* ((temp-file (flymake-init-create-temp-buffer-copy
+		       'flymake-create-temp-inplace))
+	   (local-file (file-relative-name
+			temp-file
+			(file-name-directory buffer-file-name))))
+      (list "/Users/charilaostsarouchas/.emacs.d/pycheckers.sh"  (list local-file))))
+  (add-to-list 'flymake-allowed-file-name-masks
+	       '("\\.py\\'" flymake-pyflakes-init)))
+
+;; underline instead of highlight
+(custom-set-faces
+ '(flymake-errline ((((class color)) (:underline "red"))))
+ '(flymake-warnline ((((class color)) (:underline "yellow")))))
+
+;; fill column indicator (72 characters)
+;; download relevant .el file from http://www.emacswiki.org/emacs/FillColumnIndicator
+(load-file "/Users/charilaostsarouchas/.emacs.d/fill-column-indicator.el")
+(require 'fill-column-indicator)
+(define-globalized-minor-mode
+  global-fci-mode fci-mode (lambda () (fci-mode 1)))
+(global-fci-mode t)
+(setq fci-rule-width 1)
+(setq fci-rule-color "cyan")
+(setq fci-rule-column 79);; like pep8
+
+
+;; spell check of comments / doc strings
+;;(add-hook 'python-mode-hook 'flyspell-prog-mode)
+;;(setq flyspell-issue-message-flag nil)
+;;(autoload 'flyspell-mode "flyspell" "On-the-fly spelling checker." t)
+
+;;(add-hook 'message-mode-hook 'turn-on-flyspell)
+;;(add-hook 'text-mode-hook 'turn-on-flyspell)
+;;(add-hook 'c-mode-common-hook 'flyspell-prog-mode)
+;;(add-hook 'python-mode-common-hook 'flyspell-prog-mode)
+;;(add-hook 'tcl-mode-hook 'flyspell-prog-mode)
+;;(defun turn-on-flyspell ()
+;;  "Force flyspell-mode on using a positive arg. For use in hooks."
+;;  (interactive)
+;;  (flyspell-mode 1))
+;;(defadvice flyspell-mode (after advice-flyspell-check-buffer-on-start activate)
+;;  (flyspell-buffer))

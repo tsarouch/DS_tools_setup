@@ -1,0 +1,133 @@
+;;; -*- coding: utf-8 -*-
+
+;; ----- ido-last-directory-list -----
+(
+ ("/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/" . "evaluation_pipeline/")
+ ("/Users/charilaostsarouchas/teralytics_github/" . "edge-pythonic-jungle/")
+ ("/" . "Users/")
+ ("/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/evaluation_pipeline/ep/" . "od/")
+ ("/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/evaluation_pipeline/" . "ep/")
+ ("/Users/charilaostsarouchas/teralytics_github/data-science-repository-of-knowledge/edge_data_quality/tera/edge/model_output/" . "lib/")
+ ("/Users/charilaostsarouchas/teralytics_github/data-science-repository-of-knowledge/edge_data_quality/tera/edge/" . "model_output/")
+ ("/Users/charilaostsarouchas/teralytics_github/data-science-repository-of-knowledge/edge_data_quality/tera/" . "edge/")
+ ("/Users/charilaostsarouchas/teralytics_github/data-science-repository-of-knowledge/edge_data_quality/" . "tera/")
+)
+
+;; ----- ido-work-directory-list -----
+(
+ "/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/evaluation_pipeline/ep/od/"
+ "/Users/charilaostsarouchas/my_ds_corner/tl_task/"
+ "/Users/charilaostsarouchas/my_ds_corner/tl_task/DB_questions/"
+ "/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/evaluation_pipeline/ep/shared/"
+ "/Users/charilaostsarouchas/my_ds_corner/web/image_wrapper/"
+ "/Users/charilaostsarouchas/my_ds_corner/lib/"
+ "/Users/charilaostsarouchas/Desktop/clust/"
+ "/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/evaluation_pipeline/ep/flow/analysis/"
+ "/Users/charilaostsarouchas/teralytics_github/data-science-repository-of-knowledge/edge_data_quality/tera/edge/model_output/output/"
+ "/Users/charilaostsarouchas/Desktop/temp_gnet/"
+ "/Users/charilaostsarouchas/tsiou/"
+ "/Users/charilaostsarouchas/teralytics_projects_local/EDGE/OVER_TIME_stats/"
+ "/Users/charilaostsarouchas/teralytics_projects_local/EDGE/ATM_data_massage/"
+ "/Users/charilaostsarouchas/teralytics_projects_local/EDGE/ERROR_report/"
+ "/Users/charilaostsarouchas/teralytics_projects_local/EDGE/MV_analysis_GT_zurich/"
+ "/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/evaluation_pipeline/ep/"
+ "/Users/charilaostsarouchas/teralytics_github/data-science-repository-of-knowledge/edge-zurich-atm/"
+ "/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/pipeline_analysis/analysis/model/"
+ "/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/pipeline_analysis/analysis/shared/"
+ "/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/pipeline_analysis/analysis/shared/io/"
+ "/Users/charilaostsarouchas/teralytics_github/data-science-repository-of-knowledge/edge_data_quality/tera/edge/model_output/lib/"
+)
+
+;; ----- ido-work-file-list -----
+(
+ "reader.py"
+ "DB_questions.ipynb"
+ "db_questions_csv.ipynb"
+ "configuration.py"
+ "db.py"
+ "index.html"
+ "lda.ipynb"
+ "gt_comparison.py"
+ "groundtruth_comparison_results.py"
+ "reader_def.py"
+)
+
+;; ----- ido-dir-file-cache -----
+(
+ ("/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/evaluation_pipeline/ep/od/" (21965 35299 0 0) "run.py" "reader.py" "mappings.py" "helper.py" "field_names.py" "configuration.py" "__init__.py" "../" "./")
+
+ ("/Users/charilaostsarouchas/my_ds_corner/tl_task/" (21960 50572 0 0) "Untitled.ipynb" "test.csv~" "test.csv" "orphants_mar.json" "orphants_mar.csv" "orphants_feb.csv" "od_cell_repo_analysis_.ipynb" "od_cell_repo_analysis.ipynb" "mar_repo_Feb_ev.csv" "mar_repo_Feb_ev" "DB_questions.ipynb" "DB_questions/" "data/" ".ipynb_checkpoints/" "../" "./")
+
+ ("/Users/charilaostsarouchas/my_ds_corner/tl_task/DB_questions/" (21961 46962 0 0) "dblib.py~" "dblib.pyc" "dblib.py" "db_questions_csv.ipynb" "db_questions.ipynb" "data/" ".ipynb_checkpoints/" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/evaluation_pipeline/ep/shared/" (21960 35501 0 0) "time.pyc" "time.py" "stats_lib.py" "plots_lib.pyc" "plots_lib.py" "net.py" "metrics.py" "linear_regression.py" "io.pyc" "io.py" "edge_app_mappings.pyc" "edge_app_mappings.py" "db.py" "configuration.pyc" "configuration.py" "__init__.pyc" "__init__.py" ".#plots_lib.py" ".#io.py" "#plots_lib.py#" "#io.py#" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/evaluation_pipeline/ep/" (21881 15289 0 0) "shared/" "od/" "flow/" "__init__.pyc" "__init__.py" ".DS_Store" "../" "./")
+
+ ("/Users/charilaostsarouchas/tsiou/" (21872 5542 0 0) "untitled.txt" "tweeter_streaming.py~" "tweeter_streaming.py" "tweet_apps~" "tweet_apps" "spark/" "README.txt" "read_tsiou_data.ipynb" "NB_testTraceEstimation_NoMap_Swisscom.ipynb" "my_README_spark" "hello_flymake.py" "hello.py~" "hello.py" "data/" ".ipynb_checkpoints/" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/data-science-repository-of-knowledge/edge_data_quality/tera/edge/model_output/output/" (21853 63149 0 0) "writer.py~" "writer.pyc" "writer.py" "strategies_comparison.py~" "strategies_comparison.pyc" "strategies_comparison.py" "groundtruth_comparison_results.py~" "groundtruth_comparison_results.pyc" "groundtruth_comparison_results.py" "data_driven_results.py~" "data_driven_results.pyc" "data_driven_results.py" "__init__.pyc" "__init__.py" "#writer.py#" "#data_driven_results.py#" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/evaluation_pipeline/ep/flow/analysis/" (21855 10388 0 0) "strategies_comparison.py" "over_time.py" "gt_comparison.py" "gnet_comparison.pyc" "data_driven_comparison.py" "__init__.pyc" "__init__.py" "#gt_comparison.py#" "../" "./")
+
+ ("/Users/charilaostsarouchas/Desktop/clust/" (21901 31707 0 0) "lib/" "../" "./")
+
+ ("/Users/charilaostsarouchas/my_ds_corner/lib/" (21910 21862 0 0) "plots_lib.py" "lib_geo.py" "get_db_data.py~" "get_db_data.pyc" "get_db_data.py" "db.pyc" "db.py" "classification_plot.py~" "classification_plot.py" ".#plots_lib.py" "#plots_lib.py#" "#db.py#" "../" "./")
+
+ ("/Users/charilaostsarouchas/my_ds_corner/web/image_wrapper/" (21938 5918 0 0) "script.js" "radar_metrics_.css" "radar_metrics.html" "radar_metrics.css" "net/" "index.html" "images/" "cell_coverage_percentile_90.png" "cell_coverage.png" ".#radar_metrics.css" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/evaluation_pipeline/ep/flow/" (21854 61943 0 0) "run_gnet.py~" "run_gnet.py" "run.py" "reader.pyc" "reader.py" "plot.py" "helpers.pyc" "helpers.py" "gnet/" "comparisons/" "analysis/" "__init__.pyc" "__init__.py" ".DS_Store" "#reader.py#" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/spanish-bread/utils/python/train/evaluation/od/" (21853 63138 0 0) "run.py" "reader.py~" "reader.py" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/data-science-repository-of-knowledge/edge-zurich-atm/" (21796 62251 0 0) "transactions_over_time.py~" "transactions_over_time.py" "results/" "locations_zurich_ubs_BiDiCars_merged_modified.csv" "helpers.py~" "helpers.pyc" "helpers.py" "20150326-155144_9b03097_flow_gross_12_3_part-00000" "20150326-152330_9b03097_flow_gross_13_3_part-00000" "150407_Teralytics_ATM-Daten.xlsx" ".DS_Store" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_projects_local/EDGE/MV_analysis_GT_zurich/" (21814 18197 0 0) "results/" "plots.pyc" "plots.py" "mv.py" "linear_regression.pyc" "linear_regression.py" "gt_zurich_201503_pre_gate_format_adjusted.numbers/" "data/" ".DS_Store" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_projects_local/EDGE/ERROR_report/" (21815 47915 0 0) "stats_lib.pyc" "stats_lib.py" "scatter_error_VS_count_num.png" "report_raw.py~" "report_raw.py" "report_flymake.py" "report_ef.py~" "report_ef.py" "report_default.py" "report.py~" "plots_lib.py~" "plots_lib.pyc" "plots_lib.py" "hist_error_per_street.png" "flow_gt_extr_raw.csv" "flow_gt_extr.csv" "flow_gt.csv" "extr_on_cumsum/" "boxplot_mpe_dummy_on_mean.png" "boxplot_mpe_dummy_median.png" "boxplot_mpe.png" ".DS_Store" "#stats_lib.py#" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_projects_local/EDGE/ATM_data_massage/" (21826 23016 0 0) "ubs_atm_March_2015_formated_umsatz.csv" "ubs_atm_March_2015_formated_trx.csv" "test.csv" "reader.py" "massage.py~" "massage.py" "atm_transactions_per_atm.csv" "atm_transactions.csv" "150407_Teralytics_ATM-Daten.xlsx" ".DS_Store" "#reader.py#" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_projects_local/EDGE/OVER_TIME_stats/" (21823 43222 0 0) "results_backup/" "results/" "plots_lib.py~" "plots_lib.pyc" "plots_lib.py" "plot.py" "over_time.py~" "over_time.py" "edge_app_mappings.pyc" "edge_app_mappings.py" "data/" "anal.py~" "anal.py" ".DS_Store" "#plot.py#" "../" "./")
+
+ ("/Users/charilaostsarouchas/Desktop/temp_gnet/" (21850 1959 0 0) "vis_gnet.py~" "vis_gnet.py" "reader_def.py~" "reader_def.py" "reader.py~" "reader.pyc" "reader.py" "data_gnet/" "data_edge/" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/evaluation_pipeline/" (21796 115 0 0) "tools/" "test/" "setup.py" "requirements2.txt" "requirements1.txt" "README.md" "ep/" ".gitignore" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/" (21767 7664 0 0) "README.md" "pipeline_analysis/" "evaluation_pipeline/" ".gitignore" ".git/" ".DS_Store" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/" (21704 45048 0 0) "teralytics-main/" "teach_me/" "sparkling-rainbow/" "POI/" "edge-pythonic-jungle/" "data-science-repository-of-knowledge/" ".DS_Store" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/data-science-repository-of-knowledge/" (21795 63478 0 0) "traffic-supervised-learning-py/" "stroer_output_data_quality/" "stroer_components_data_quality/" "README.md" "network-statistics-py/" "fetch_CH_coverage_maps/" "edge_data_quality/" "edge-zurich-atm/" "coverage-area-estimation-py/" "algorithm-evaluation/" ".git/" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/data-science-repository-of-knowledge/edge_data_quality/tera/edge/model_output/lib/" (21704 63468 0 0) "stats_lib.py~" "stats_lib.pyc" "stats_lib.py" "plots_lib.py~" "plots_lib.pyc" "plots_lib.py" "linreg_CI_PI.pyc" "linreg_CI_PI.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/pipeline_analysis/analysis/shared/io/" (21767 7664 0 0) "writer.pyc" "reader.py~" "reader.pyc" "db_reader.py~" "db_reader.pyc" "__init__.pyc" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/pipeline_analysis/analysis/shared/" (21767 7664 0 0) "stats_lib.pyc" "plots_lib.py~" "plots_lib.pyc" "linear_regression.pyc" "io/" "constants.pyc" "configuration.pyc" "__init__.pyc" ".DS_Store" "#constants.py#" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/pipeline_analysis/analysis/model/" (21767 7664 0 0) "output_statistics_over_time.py~" "output_statistics_over_time.pyc" "output_statistics.py~" "output_statistics.pyc" "__init__.pyc" ".DS_Store" "#output_statistics_over_time.py#" "../" "./")
+
+ ("/Users/charilaostsarouchas/Desktop/traces/" (21781 5786 0 0) "tt.py~" "tt.py" "../" "./")
+
+ ("/Users/" (21707 18994 0 0) "Shared/" "Guest/" "charilaostsarouchas/" ".localized" "../" "./")
+
+ ("/Users/charilaostsarouchas/" (21770 35817 0 0) "tsarouch_github/" "tsarouch@hw01/" "teralytics_projects_local/" "teralytics_github/" "teralytics_data_tmp/" "Teralytics GDrive/" "temp~" "temp" "software/" "pychecker.sh~" "pychecker.sh" "Public/" "Pictures/" "pgadmin.log" "Music/" "Movies/" "lll" "Library/" "images/" "g_net_track_comparison.py" "epylint.py" "dwhelper/" "Downloads/" "Documents/" "Desktop/" "ax~" "ax" "Applications/" "anaconda/" ".zinc/" ".Xauthority" ".viminfo" ".Trash/" ".ssh/" ".serverauth.81197" ".scala_history" ".root_hist" ".rnd" ".qgis2/" ".pylint.d/" ".psql_history" ".pip/" ".pgpass" ".pgadmin_histoqueries" ".matplotlib/" ".m2/" ".lesshst" ".ipython/" ".hgignore_global" ".gradle/" ".gitignore_global" ".gitconfig" ".emacs~" ".emacs.d/" ".emacs.bmk" ".emacs" ".dvdcss/" ".DS_Store" ".dropbox/" ".distlib/" ".cups/" ".continuum/" ".CFUserTextEncoding" ".cache/" ".bash_profile~" ".bash_profile.macports-saved_2015-02-04_at_16:27:32" ".bash_profile" ".bash_history" ".android/" "#ttt#" "#rrr#" "#ooo#" "#lll#" "#.bash_profile#" "../" "./")
+
+ ("/Users/charilaostsarouchas/Desktop/" (21778 52959 0 0) "test_fw/" "test/" "swistzerland_more_than_chocolate_and_cheese.dmg" "Semantic-Trajectories-Modeling-and-Analysis.pdf" "Screen Shot 2015-03-23 at 15.40.07.png" "Screen Shot 2015-03-19 at 13.54.20.png" "run_alex.py" "registrationform-auditor92-93.pdf" "quicky21.csv" "quicky20.csv" "quicky19.csv" "quicky" "qq.py~" "qq.py" "presentation_20150318/" "presentation_20150302/" "part-00000" "Nikos_kazantzakis.dmg" "ModelingTransport.pdf" "meta-info.txt" "intercity_traffic_feasibility_studies.pdf" "IMG_0531.jpg" "filter_traces/" "Data Science for Business - Provost Fawcett.pdf" "area_cuts_statistics.txt" "antrag_neuveranlagung_qst_2014.pdf" ".localized" ".DS_Store" ".#asdf" "#asdf#" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/edge-pythonic-jungle/pipeline_analysis/analysis/" (21707 31054 0 0) "strategies/" "shared/" "model/" "mini_df.p.zip" "mini_df.p" "main.py~" "main.py" "groundtruth/" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/data-science-repository-of-knowledge/edge_data_quality/tera/edge/model_output/shared/" (21702 23235 0 0) "constants.py~" "constants.pyc" "constants.py" "configuration.py~" "configuration.pyc" "configuration.py" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/data-science-repository-of-knowledge/edge_data_quality/" (21704 50544 0 0) "tera/" "setup.py" "README~" "README" "main.py~" "main.py" "allimports" "__init__.py" ".DS_Store" "#README#" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/data-science-repository-of-knowledge/edge_data_quality/tera/" (21694 16728 0 0) "edge/" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/data-science-repository-of-knowledge/edge_data_quality/tera/edge/" (21704 42369 0 0) "model_output/" "__init__.pyc" "__init__.py" "../" "./")
+
+ ("/Users/charilaostsarouchas/teralytics_github/data-science-repository-of-knowledge/edge_data_quality/tera/edge/model_output/" (21695 27352 0 0) "shared/" "output/" "lib/" "input/" "__init__.pyc" "__init__.py" ".DS_Store" "../" "./")
+)
+
+;; ----- ido-unc-hosts-cache -----
+t
