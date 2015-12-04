@@ -27,3 +27,25 @@ Having said that, the configuration of crontab for pyspark jobs does not change 
 
 
 For the above see the relavant code in this dir
+
+
+## Concerning the crontab
+We can edit the crontab file with:
+> crontab -e
+And we can see what are the jobs in crontab with
+> crontab -l
+And we can remove a crontab job, either by removing the line in the file or by
+> crontab -r
+
+
+# +---------------- minute (0 - 59)
+# |  +------------- hour (0 - 23)
+# |  |  +---------- day of month (1 - 31)
+# |  |  |  +------- month (1 - 12)
+# |  |  |  |  +---- day of week (0 - 6) (Sunday=0 or 7)
+# |  |  |  |  |
+  *  *  *  *  *  command to be executed
+
+example:
+If I want to execute a script every 10 minutes:
+*/10 * * * * /path/to/script
