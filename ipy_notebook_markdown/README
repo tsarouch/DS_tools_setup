@@ -1,0 +1,49 @@
+1) We ll neet the noteboot extentions:
+Install the https://github.com/ipython-contrib/IPython-notebook-extensions
+
+2) We ll need to update the jupyter_nbconvert_config.json config file
+
+(we should add template_path) "."
+
+"=========== jupyter_nbconvert_config.json ================"
+{
+  "Exporter": {
+    "preprocessors": [
+      "pre_codefolding.CodeFoldingPreprocessor",
+      "pre_pymarkdown.PyMarkdownPreprocessor"
+    ],
+      "template_path": [
+        ".",
+        "/home/ctsarouchas_thor/.local/share/jupyter/templates"
+    ]
+  },
+  "NbConvertApp": {
+    "postprocessor_class": "post_embedhtml.EmbedPostProcessor"
+  },
+  "version": 1
+}
+"======================================================="
+
+3) We ll need to have a template .tpl file
+
+
+"=========== cover_code.tpl ================"
+{%- extends 'slides_reveal.tpl' -%}
+
+{% block input_group %}
+{% endblock input_group %}
+
+{% block output %}
+<div class="hbox output_area">
+{%- if cell.metadata.input_collapsed -%}
+    {{ super() }}
+{%- else -%}
+    {{ super() }}
+{%- endif -%}
+</div>
+{% endblock output %}
+"======================================================="
+
+4) we execute 
+> ipython nbconvert --ExecutePreprocessor.enabled=True --template cover_code.tpl --to html ipython_batch.ipynb
+
