@@ -44,6 +44,23 @@ Install the https://github.com/ipython-contrib/IPython-notebook-extensions
 {% endblock output %}
 "======================================================="
 
+4 ) we may need to change the jupyter_nbconvert_config.py in order to increase ExecutePreprocessor.timeout 
+in order to make it more tolerant in time -  we put here 10 hours
+"=========== jupyter_nbconvert_config.py ================"
+from jupyter_core.paths import jupyter_config_dir, jupyter_data_dir
+import os
+import sys
+
+sys.path.append(os.path.join(jupyter_data_dir(), 'extensions'))
+c = get_config()
+c.Exporter.template_path = [ '.', os.path.join(jupyter_data_dir(), 'templates') ]
+c.ExecutePreprocessor.timeout = 36000 # we put here 10 hours
+
+#--- nbextensions configuration ---
+"======================================================="
+
+
+
 4) we execute 
 > ipython nbconvert --ExecutePreprocessor.enabled=True --template cover_code.tpl --to html ipython_batch.ipynb
 
