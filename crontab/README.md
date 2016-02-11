@@ -49,3 +49,16 @@ And we can remove a crontab job, either by removing the line in the file or by
 example:
 If I want to execute a script every 10 minutes:
 */10 * * * * /path/to/script
+
+
+# Debug
+If for any reason the crontab does not work you can print the output in a file:
+e.g. 
+```
+* * * * * /home/john/bin/backup.sh > /home/cron_logs.log 2>&1
+```
+
+In the above:
+cron_logs.log indicates that the standard output of the backup.sh script will be redirected to the backup.log file.
+2>&1 indicates that the standard error (2>) is redirected to the same file descriptor that is pointed by standard output (&1).
+So, both standard output and error will be redirected to cron_logs.log
